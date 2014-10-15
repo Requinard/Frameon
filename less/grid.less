@@ -1,0 +1,133 @@
+@import 'variables';
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: @container-bg;
+
+  @media all and (min-width: @container-lg-size) {
+    width: @container-lg-size;
+  }
+  @media all and(min-width: @container-md-size) and (max-width: @container-lg-size) {
+    width: @container-md-size;
+  }
+  @media all and(min-width: @container-sm-size) and (@container-sm-size) {
+    width: @container-sm-size;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+
+.row {
+  display: table;
+  width: 100%;
+  float: left;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.col-1 {
+  @media all and (min-width: @container-xs-size) {
+    width: 8.3%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-2 {
+  @media all and (min-width: @container-xs-size) {
+    width: 16.3%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-3 {
+  @media all and (min-width: @container-xs-size) {
+    width: 24.9%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-4 {
+  @media all and (min-width: @container-xs-size) {
+    width: 33.3%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-5 {
+  @media all and (min-width: @container-xs-size) {
+    width: 41.6%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-6 {
+  @media all and (min-width: @container-xs-size) {
+    width: 50%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-7 {
+  @media all and (min-width: @container-xs-size) {
+    width: 58.3%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-8 {
+  @media all and (min-width: @container-xs-size) {
+    width: 66.6%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-9 {
+  @media all and (min-width: @container-xs-size) {
+    width: 74.9%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-10 {
+  @media all and (min-width: @container-xs-size) {
+    width: 83.2%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-11 {
+  @media all and (min-width: @container-xs-size) {
+    width: 91.5%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}
+.col-12 {
+  @media all and (min-width: @container-xs-size) {
+    width: 100%;
+  }
+  @media all and (max-width: @container-xs-size) {
+    width: 100%;
+  }
+}

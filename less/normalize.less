@@ -1,0 +1,19 @@
+@import 'variables';
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  weight: 100%;
+  background-color: @body-bg;
+}
+
+* {
+  box-sizing: border-box;
+  
+  &:before, &after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
