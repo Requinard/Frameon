@@ -3,6 +3,13 @@ body {
   font-size: 16px;
   color: 030303;
 }
+.page-header {
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 h1 {
   font-size: 36px;
 }
