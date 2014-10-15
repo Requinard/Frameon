@@ -41,11 +41,11 @@
 .col-11,
 .col-12 {
   word-wrap: break-word;
-  white-space: pre-wrap;
   white-space: pre-line;
   float: left;
   position: relative;
   min-height: 1px;
+  padding: 1px;
 }
 @media all and (min-width: 600px) {
   .col-1 {
