@@ -256,6 +256,13 @@ h6 {
   min-height: 25%;
   width: 100%;
 }
+.page-vertical-center-parent {
+  display: table;
+}
+.page-vertical-center-body {
+  display: table-cell;
+  vertical-align: middle;
+}
 .navbar {
   position: fixed;
   top: 0px;
