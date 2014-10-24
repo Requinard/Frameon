@@ -1,0 +1,32 @@
+@import 'variables';
+
+@input-hover: #3fb8bc;
+@input-active: #3886a8;
+@input-error: #9a3733;
+@input-warn: #c3a04c;
+
+.form-input {
+
+  font-size: 1.2em;
+  padding: 15px;
+
+  &:hover {
+    border: 1px solid @input-hover;
+  }
+
+  &:active {
+    border: 1px solid @input-active;
+  }
+}
+
+.form-input-error {
+  border: 1px solid @input-error !important;
+}
+
+.form-input-warn {
+  border: 1px solid @input-warn !important;
+}
+
+.form-input-full {
+  width: 100%;
+}

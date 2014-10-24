@@ -290,3 +290,22 @@ h6 {
 .body-has-navbar {
   margin-top: 50px;
 }
+.form-input {
+  font-size: 1.2em;
+  padding: 15px;
+}
+.form-input:hover {
+  border: 1px solid #3fb8bc;
+}
+.form-input:active {
+  border: 1px solid #3886a8;
+}
+.form-input-error {
+  border: 1px solid #9a3733 !important;
+}
+.form-input-warn {
+  border: 1px solid #c3a04c !important;
+}
+.form-input-full {
+  width: 100%;
+}
