@@ -291,6 +291,7 @@ h6 {
   margin-top: 50px;
 }
 .form-input {
+  margin: 5px;
   font-size: 1.2em;
   padding: 15px;
 }
@@ -306,6 +307,54 @@ h6 {
 .form-input-warn {
   border: 1px solid #c3a04c !important;
 }
+.form-input-success {
+  border: 1px solid #449231 ! important;
+}
+.form-input-info {
+  border: 1px solid #a8cfe2 ! important;
+}
 .form-input-full {
+  width: 100%;
+}
+.btn {
+  display: inline-block;
+  color: #333;
+  padding: 15px;
+  margin: 5px;
+  font-size: 1.03em;
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7;
+}
+.btn:hover {
+  border: 1px solid #3fb8bc;
+}
+.btn:active {
+  border: 1px solid #3886a8;
+}
+a.btn {
+  font-weight: 100;
+  font-size: 115%;
+}
+.btn-succcess {
+  border: 1px solid #56b83e;
+  background-color: #449231;
+}
+.btn-brand {
+  border: 1px solid #d3ecc4;
+  background-color: #b6df9e;
+}
+.btn-error {
+  border: 1px solid #c04540;
+  background-color: #9a3733;
+}
+.btn-warning {
+  border: 1px solid #d0b472;
+  background-color: #c3a04c;
+}
+.btn-info {
+  border: 1px solid #cee4ef;
+  background-color: #a8cfe2;
+}
+.btn-full {
   width: 100%;
 }

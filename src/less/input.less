@@ -1,30 +1,35 @@
 @import 'variables';
 
-@input-hover: #3fb8bc;
-@input-active: #3886a8;
-@input-error: #9a3733;
-@input-warn: #c3a04c;
 
 .form-input {
-
+  margin: 5px;
   font-size: 1.2em;
   padding: 15px;
 
   &:hover {
-    border: 1px solid @input-hover;
+    border: 1px solid @color-hover;
   }
 
   &:active {
-    border: 1px solid @input-active;
+    border: 1px solid @color-active;
   }
 }
 
 .form-input-error {
-  border: 1px solid @input-error !important;
+  border: 1px solid @color-error !important;
 }
 
 .form-input-warn {
-  border: 1px solid @input-warn !important;
+  border: 1px solid @color-warning !important;
+}
+
+.form-input-success {
+  border: 1px solid @color-success ! important;
+  
+}
+
+.form-input-info {
+  border: 1px solid @color-info ! important;
 }
 
 .form-input-full {
